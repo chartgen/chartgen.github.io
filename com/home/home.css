@@ -1,0 +1,69 @@
+.home header{
+    background-color: rgb(133, 105, 151);
+    background-image: url(headerbg.png);
+}
+
+.home header{
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    /*min-height: 100%;*/
+    text-align: center;
+}
+
+.home .site-title{
+    display: block;
+    line-height: 1;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+@media (min-width: 768px){
+    .home .site-title{
+        font-size: 5em;
+    }
+}
+
+.home .start-button{
+    margin-top: 1em;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.home .start-button:hover{
+    background: white;
+    color: rgb(133, 105, 151);
+    border-color: white;
+}
+
+.home .centre{
+    text-align: center;
+}
+
+.home .chart-title{
+    text-align: center;
+}
+
+.home .chart-group{
+    margin-bottom: 15px;
+}
+
+a{
+    color: #85144b;
+}
+
+a:hover{
+    color: #85144b;
+}
+
+a:visited{
+    color: #85144b;
+}
+
+.home #footer{
+    width: 100%;
+    text-align: center;
+    background-color: #e7e7e7;
+    padding-top: 15px;
+}
